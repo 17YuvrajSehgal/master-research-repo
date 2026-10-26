@@ -1,0 +1,37 @@
+- agents should be able to handle the full incident lifecycle - make it self-healing
+
+steps:
+[microservices] <--> connect to [agent/humans] --> incident detection -> triage after localization -> root cause diagnostics -> Mitigation/Resolution --> (goes back to agent)
+
+- They create “problems”. Each problem is a realistic incident inside a running microservice system. They add faults with real root causes, like misconfigurations.
+
+- Test apps: two apps from DeathStarBench (SocialNetwork and HotelReservation), with their workload generators.
+- tools used: their own fault library, plus ChaosMesh.
+
+
+- Telemetry:
+    Prometheus for metrics
+    Jaeger for traces
+    Filebeat + Logstash for logs
+
+Control: Helm and the Kubernetes API, used by the orchestrator.
+
+LINK: https://github.com/microsoft/AIOpsLab
+
+
+
+-- CREATE AN AGENT -> WHO WILL MAKE A TREE --> SERVICE TREE [FOR DIFFERENT COMPONENTS OF THE SYSTEM]
+[SERVICE] --> [WHAT IT IS DOING] [FILES RELATED TO IT] [etc.]
+
+
+
+- evaluation metrics:
+
+- Correctness: time from when the fault happens to when it is detected.
+- Time & Steps:
+    - Time-to-Detect (TTD)
+    - Time-to-Mitigate (TTM)
+    - Number of steps
+- Cost: Measured as number of tokens (input + output).
+
+[detection, localization, RCA, mitigation]
