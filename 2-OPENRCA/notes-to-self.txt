@@ -1,0 +1,8 @@
+REPO: https://github.com/microsoft/OpenRCA
+
+there dataset comes from real-world applications
+
+python kernel diagram-2 is useful in my case
+
+
+the have discussed how to sample telemetry data

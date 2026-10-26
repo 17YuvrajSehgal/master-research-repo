@@ -1,0 +1,82 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="W96w2H1SCQd69H1kHeGm">
+    <mxGraphModel dx="4965" dy="2988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;labelPerimeter=1;" value="TASK - WHAT AGENT MUST DO" vertex="1">
+          <mxGeometry height="100" width="640" x="-530" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="MITIGATION" vertex="1">
+          <mxGeometry height="60" width="120" x="-30" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="DETECTION OF PROBLEM" vertex="1">
+          <mxGeometry height="60" width="120" x="-510" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="LOCALIZATION" vertex="1">
+          <mxGeometry height="60" width="120" x="-350" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="RCA" vertex="1">
+          <mxGeometry height="60" width="120" x="-190" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;labelPerimeter=1;" value="CONTEXT" vertex="1">
+          <mxGeometry height="300" width="1045" x="-695" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-34" edge="1" parent="1" source="IjDeFQKzmIEqvcbw1cXa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IjDeFQKzmIEqvcbw1cXa-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-35" edge="1" parent="1" source="IjDeFQKzmIEqvcbw1cXa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="IjDeFQKzmIEqvcbw1cXa-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="PROBLEM INFORMATION&lt;div&gt;[GIVEN TO AGENT]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="40" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-37" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="DIRECT&lt;div&gt;[service description, task description, and documentation of the APIs the agent can use]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="-70" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-38" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="INDIRECT&lt;div&gt;[logs, metrics, and traces]&lt;/div&gt;&lt;div&gt;[AGENT MUST ASK FOR THEM - NOT GIVEN]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="130" x="180" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-39" edge="1" parent="1" source="IjDeFQKzmIEqvcbw1cXa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="IjDeFQKzmIEqvcbw1cXa-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-40" edge="1" parent="1" source="IjDeFQKzmIEqvcbw1cXa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="IjDeFQKzmIEqvcbw1cXa-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-41" edge="1" parent="1" source="IjDeFQKzmIEqvcbw1cXa-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="IjDeFQKzmIEqvcbw1cXa-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="OPERATIONAL&lt;div&gt;ENVIRONMENT&lt;/div&gt;&lt;div&gt;[HIDDEN FROM AGENT]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="-470" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-43" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="CLOUD SERVICES" vertex="1">
+          <mxGeometry height="60" width="120" x="-460" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-44" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="WORKLOAD MODEL&lt;div&gt;[TRAFFIC SENT]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-260" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-45" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="FAULT MODEL" vertex="1">
+          <mxGeometry height="60" width="120" x="-660" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-47" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.robotics;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="110" width="110" x="-880" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;labelPerimeter=1;" value="SOLUTION" vertex="1">
+          <mxGeometry height="300" width="1045" x="-695" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-49" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.robotics;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="160" width="160" x="970" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-50" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloud_extension_ros;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="400" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="LOCALIZATION" vertex="1">
+          <mxGeometry height="250" width="460" x="-670" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="IjDeFQKzmIEqvcbw1cXa-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="250" width="460" x="-130" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
